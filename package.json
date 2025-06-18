@@ -1,0 +1,23 @@
+{
+  "name": "formylove",
+  "homepage": "https://RahmadahyaWeb.github.io/mira-arlina",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "kaboom": "^3000.1.17",
+    "kaplay": "^3001.0.19",
+    "terser": "^5.43.0"
+  }
+}
